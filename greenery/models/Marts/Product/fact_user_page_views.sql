@@ -10,3 +10,4 @@ select
 from {{ ref('int_page_views') }} p
 JOIN {{ ref('int_users') }} u 
     ON p.user_id = u.user_id
+    
